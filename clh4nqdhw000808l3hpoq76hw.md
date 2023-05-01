@@ -53,3 +53,6 @@ There are two primary methods of IPC:
 1. Shared memory: In this method, a shared memory region is created that can be accessed by both the user process and the kernel. Both the user process and kernel can read and write to this memory region, enabling communication between them.
     
 2. Message passing: In this method, messages are sent between the user process and kernel through a message-passing mechanism. The user process sends a message to the kernel, which then processes the message and sends a response back to the user process. This is a slower method than shared memory, but it is more secure as it prevents direct access to the kernel's memory.
+    
+
+*tune in for the next part.*......
